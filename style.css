@@ -1,0 +1,203 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  color:#fff;
+  text-align: center;
+  background: url('images/bg.jpg') fixed;
+  background-size:cover;
+}
+
+ul {
+  list-style: none;
+  padding-left:0;
+}
+
+.header {
+  padding: 170px 30px 80px;
+  height: 100vh;
+  background: rgba(25,25,120,0.9);
+}
+
+.site-title-sub {
+  margin:0 0 30px;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+
+.site-title {
+  margin: 50px;
+  font-size: 4.5rem;
+}
+
+.site-description {
+  margin-bottom:50px;
+  color:#888;
+}
+
+.button {
+  display:inline-block;
+  width: 200px;
+  padding:20px;
+  margin: 10px;
+  border-radius:4px;
+  background-color:#afa58d;
+  color:#fff;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size:1rem;
+}
+
+.links {
+  margin:0 auto;
+}
+
+.button-twitter {
+  background:#3399ff;
+}
+
+.button:hover {
+  opacity:0.9;
+}
+
+.button-orange {
+  background: #f1b400;
+}
+
+.about {
+  padding:80px 30px;
+  background: #ffffff;
+  color:#333;
+}
+
+.about_profile {
+  margin:0 auto;
+  width:70%;
+  line-height: 30px;
+  border: 1px solid #d8d8d8;
+}
+
+table td, table tr {
+  border: 1px solid #d8d8d8;
+}
+
+.set-border {
+  border: 1px solid #d8d8d8;
+}
+
+.reset-border {
+  border:initial;
+}
+
+.about-text {
+  width:100%;
+  margin: 30px auto;
+  line-height: 2.5;
+  text-align:center;
+  word-wrap:break-word;
+}
+
+.heading {
+  display: inline-block;
+  position:relative;
+  margin: 30px 0 15px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 4rem;
+  border-bottom: double 4px #999;
+}
+
+.works {
+  background: #383634;
+  padding:80px 0 80px;
+}
+
+.works-wrapper {
+  width:100%;
+  display: flex;
+  display: -ms-flexbox;
+  flex-wrap: wrap;
+  -ms-flex-wrap:wrap;
+}
+
+.work-box {
+  width:33.33333%;
+  padding:10px;
+}
+@media screen and (max-width: 960px) {
+  .work-box {
+    width:50%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .work-box {
+    width:100%;
+  }
+}
+
+.work-image {
+  display:block;
+  width: 100%
+}
+
+.work-description {
+  margin: 20px 0;
+}
+
+.work-descrioption .button {
+  width: 60%;
+  margin-top:20px;
+  padding:3px;
+}
+
+.button-ghost {
+  border:2px solid #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.contact {
+  height: 100vh;
+  background: rgba(25,25,120,0.9);
+  padding: 80px 0 150px;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 50px auto 0;
+}
+
+.contact-form input[type=text], .contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 15px;
+  outline: none;
+  border: 1px solid rgba(255,255,255,0.8);
+  border-radius: 0;
+  color: #333;
+}
+
+.contact-form textarea{
+  height: 150px;
+}
+
+.contact-form input[type=submit]{
+  display: block;
+  width: 200px;
+  margin:40px auto 0;
+  padding: 15px;
+  border: 1px solid rgba(255,255,255,0.8);
+  background: transparent;
+  color:#fff;
+  cursor:pointer;
+}
+
+.contact-form input[type=submit]:hover{
+  background: rgba(255,255,255,0.05);
+}
