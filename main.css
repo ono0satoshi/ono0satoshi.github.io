@@ -1,0 +1,12 @@
+td.hold{
+  background-color: orange;
+}
+
+td.dead{
+  background-color: silver;
+}
+
+td {
+  width: 30px;
+  height: 30px;
+}
