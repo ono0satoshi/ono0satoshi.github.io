@@ -207,7 +207,7 @@ function gameJudge(){
     var fin = document.createElement("p");
     fin.innerText =
      `Game Over!!
-    score: ${Math.floor(40/score*100)}/100`;
+    score: ${Math.floor(150/score*10000)}`;
     document.getElementById("table").appendChild(fin);
   }
 }
