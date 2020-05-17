@@ -1,3 +1,15 @@
+h1 {
+  text-align: center;
+}
+
+#table{
+  text-align: center;
+}
+
+table{
+  display: inline-block;
+}
+
 td.hold{
   background-color: orange;
 }
@@ -9,4 +21,5 @@ td.dead{
 td {
   width: 30px;
   height: 30px;
+  text-align: center;
 }
